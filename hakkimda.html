@@ -1,0 +1,52 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımda</title>
+    <link rel="stylesheet" href="hakkimda.css">
+
+</head>
+<body>
+
+    <div class="hakkimda">
+
+<p><span id="giris">・Herkese merhaba ben Aybüke Aydın・❥</span> <br><br>Recep Tayyip Erdoğan Üniversitesinde bilgisayar mühendisliği okuyorum ve 4.sınıf öğrencisiyim.Bu bölüme merakla ve istekli bir şekilde geldim <span id="ucnokta">...</span><span id="moreLess">Güncel olarak  html,css,javascript ve react gibi alanlarla ilgilenmekteyim.Geçmiş senelerde bu konularla ilgili birkaç projem var fakat sadece bunla yetinmeden kendimi her geçen gün daha da geliştirip,bu alandagüzel işlere imza atmak istiyorum.Ayrıca tasarım alanına oldukça ilgili olduğum için frontend alanında sadece kodlama alanında değil farklı kısımlarda da aktif olmak istiyorum.Özellikle mobil uygulamaların ve web sitelerinin görsel tasarlama kısmında kendimi göstermek istiyorum. Uzun yıllardır tasarlama ve dizayn işleriyle ilgilendiğim için, 
+    bu alanda eğlenerek ve gelişerek başarılı biri olacağıma inanıyorum :) </span> <button onclick="butonTikla()" id="myBtn">Daha fazla oku</button></p> 
+
+    </div>
+
+    <div class="foto">
+      <img src="WhatsApp Image 2024-11-05 at 11.10.21.jpeg">
+    </div>
+
+
+
+<script>
+function butonTikla() {
+  var ucnokta = document.getElementById("ucnokta");
+  var dahaFazla = document.getElementById("moreLess");
+  var btnText = document.getElementById("myBtn");
+
+  if (ucnokta.style.display === "none") {
+    ucnokta.style.display = "inline"; 
+    btnText.innerHTML = "Daha fazla oku";
+    dahaFazla.style.display = "none";
+  } else {
+    ucnokta.style.display = "none";
+    btnText.innerHTML = "Daha az oku"; 
+    dahaFazla.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+

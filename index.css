@@ -1,0 +1,151 @@
+*{
+    background-color: #edc7b7;   
+}
+
+
+/*form */
+
+label{
+    font-family: sans-serif;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 14px;
+    text-align: center;
+
+}
+
+
+.icerik {
+    border-radius: 50px;
+    background-color: #123c69;
+    padding: 20px;
+    height: 560px;
+    width: 500px;
+    border-style: dotted;
+    border-color: #b75072;
+    border-width: 8px;
+    position: relative;
+    left: 340px;
+    top: 100px;
+}
+
+
+h1{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-align: center;
+     position: relative;
+     top: 100px;
+     color:#b75072 ;
+     letter-spacing: 10px;
+     text-transform: uppercase;
+    text-shadow:1px 3px 4px  #572209; /* yazıya gölge efekti verir */
+   
+    
+
+#yolculuk{
+           color: #225c9a;
+           
+    }
+     
+}
+
+
+h2{
+    font-style: italic;
+    color: #123c69;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+
+}
+
+ul{
+
+position: relative;   
+width:max-content;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden; /*bir öğenin içeriğinin belirtilen bir alana sığmayacak kadar büyük olması durumunda içeriğin kırpılıp kırpılmayacağını */
+
+}
+
+li {
+    float: left;
+    
+   
+  }
+  
+  li a {
+    display: block;
+    color: #cdc5c1;
+    text-align: center;
+    padding: 14px 16px;
+    background-color:#96496e;
+    height: 20px;
+    width: 380px;
+    border-width: 2px;
+    border-color: #4b739d;
+    border-style: inset;
+     border-radius: 50px 10px;
+     background:linear-gradient(#caa291,#4d1e35); /* renk geçişi yapmak için kullanılır */
+     font-style: oblique;
+     font-weight: bold;
+     text-decoration-line:none;
+     
+
+  }
+
+a:hover{
+    color: #123c69; /* yazının üstüne gittiğinde renginin değişmesini sağlıyor*/
+}
+
+/*zaman*/
+
+.zaman{
+   
+    margin:50px ;
+    padding: 50px;
+    font-family: sans-serif;
+    text-align:center;
+    background-image: url(clear-blue-sky-few-clouds-600nw-2488278533.jpg);
+    background-size: cover;
+    opacity: 50%;
+    background-color: #4b739d;
+    font-size: 30px;
+    position: relative;
+    height: 10px;
+    top: 100px;
+    border-radius: 500px;
+    box-shadow: 4px 4px 8px black;
+    
+   
+}
+
+.zaman span{
+    background-color: #caa291;
+    color: aliceblue;
+    text-shadow:6px 8px 10px #3e081a;
+   
+
+    
+}
+
+
